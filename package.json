@@ -4,6 +4,7 @@
   "description": "\"First assignment about node at Integrify\"",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Ditiite/node-integrify/issues"
   },
-  "homepage": "https://github.com/Ditiite/node-integrify#readme"
+  "homepage": "https://github.com/Ditiite/node-integrify#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.2"
+  }
 }
