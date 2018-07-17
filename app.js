@@ -26,7 +26,7 @@ const students = [
 http.createServer((req, res) => {
     let page = '';
 
-    // Icon for application requested automatically by browser
+    //Icon for application requested automatically by browser
     if (req.url === '/favicon.ico') {
         res.end();
         // Do not track
@@ -56,10 +56,10 @@ http.createServer((req, res) => {
     }
 
     const username = os.hostname();
-    const ip = '';
+    const ip = os.networkInterfaces().en0[1].address;
     const pageUrl = req.url;
     const checkingTime = displayDateTime();
-    const tracking = `User: ${username} ip: checking time: ${checkingTime} check page: ${page}\n`;
+    const tracking = `User: ${username} ip: ${ip} checking time: ${checkingTime} check page: ${page}\n`;
 
     fs.appendFile('track.user.activity.txt', tracking, (e) => {
         if (e) {
