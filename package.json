@@ -1,0 +1,23 @@
+{
+  "name": "integrify",
+  "version": "1.0.0",
+  "description": "\"First assignment about node at Integrify\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ditiite/node-integrify.git"
+  },
+  "keywords": [
+    "\"Javascript",
+    "node\""
+  ],
+  "author": "Ditiite",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ditiite/node-integrify/issues"
+  },
+  "homepage": "https://github.com/Ditiite/node-integrify#readme"
+}
