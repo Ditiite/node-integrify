@@ -8,7 +8,7 @@ const app = express();
 
 app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, '/views')))
-app.set('view engin', 'ejs');
+app.set('view engine', 'ejs');
 
 const students = [
     {

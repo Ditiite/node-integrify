@@ -4,7 +4,7 @@
   "description": "\"First assignment about node at Integrify\"",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "nodemon day_three/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
